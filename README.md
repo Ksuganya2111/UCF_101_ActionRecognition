@@ -1,10 +1,10 @@
 # UCF_101_ActionRecognition
 The dataset can be downloaded from the following link: https://www.crcv.ucf.edu/data/UCF101.php 
-##1.Data Processing:
-  -a.A subset of 40 classes from the entire dataset is used for the task of action recognition.
-  -b.The data is converted into dataframes which could be used for the DL model.
-  -c.Two samples and their captions are plotted for reference.
-  -d.After preprocessing the data is splitted into train and validation data for training.
+## 1.Data Processing:
+  - a.A subset of 40 classes from the entire dataset is used for the task of action recognition.
+  - b.The data is converted into dataframes which could be used for the DL model.
+  - c.Two samples and their captions are plotted for reference.
+  - d.After preprocessing the data is splitted into train and validation data for training.
 2.Model Building:
   a.VGG19 as CNN encoder is used for feature extraction.
   b.2-layer LSTM model and other relevant layers as decoder.
